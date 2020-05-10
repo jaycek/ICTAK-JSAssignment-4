@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Assignment</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container" style="background-color: blanchedalmond; border:solid 3px rgb(107, 25, 63); ">
+        <h1>Javascript Exercises - Assignment 4</h1>
+        <br>
+        <br>
+        <div class="form-group">
+            <label for="">1</label>
+            <input type="number" id="num1" placeholder="Enter any number">
+            <button onclick="checkPrime();">Check Prime</button>
+            <hr>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="">2</label>
+            <input type="text" id="items" placeholder="Enter an array of numbers separated by commas" required>
+            <button onclick="getMode();">Get most frequent item</button>
+            <label for="" id="frqItem"></label>
+            <hr>
+        </div>
+        <br>
+        <div class="form-group">
+            <label for="">3</label>
+            
+            <input type="text" id="inputText" placeholder="Enter a sentence with jumbled case" style="width: 450px;">
+            
+            <button onclick="swapcase();">Swap case</button>
+            <label for="" id="outputText"></label>
+            <hr>
+        </div>
+
+        <div class="form-group">
+            <label for="">4</label>
+            <input type="text" id="items4" placeholder="Enter an array of numbers separated by commas" style = "width:450px" required>
+            <button onclick="getSum();">Get sum of squares</button>
+            <label for="" id="sumSquares"></label>
+            <hr>
+        </div>
+        
+        <div class="form-group">
+            <label for="">5</label>
+            <button onclick="checkOddEven();">Display odd or even from 0 to 15</button>
+            <label for="" id="oddeven"></label>
+            <hr>
+        </div>
+        <div class="form-group">
+            <label for="">6</label>
+            <input type="text" id="item6" placeholder="Enter the string" style = "width:450px" required>
+            <input type="number" id="maxlen" placeholder="Max length of string" style = "width:180px" required>
+            <button onclick="trimString();">Truncate String</button>
+            <label for="" id="trimmedOutput"></label>
+            <hr>
+        </div>
+        <div class="form-group">
+            <label for="">7</label>
+            <input type="number" id="num1item7"  required>
+            <input type="number" id="num2item7" required>
+            <button onclick="compareNums();">Find the larger number</button>
+            <label for="" id="largeNumber"></label>
+            <hr>
+        </div>
+        <div class="form-group">
+            <label for="">8</label>
+            <label for="">Point of Sales </label>
+            <br>
+            <input type="number" id="slno"  placeholder="Enter the Serial Number" required>
+            <input type="text" id="prodname" placeholder="Enter the product name" required>
+            <input type="number" id="qty" placeholder="Enter the quantity" required>
+            <button onclick="addItem();">Add Item</button>
+            <br>
+            <textarea name="posItems" id="posItems" cols="30" rows="10"></textarea>
+            <br>
+            <button onclick="sortItems();">Sort Items based on product name</button>
+            
+            <hr>
+        </div>
+        <div class="form-group">
+            <label for="">9</label>
+            <button onclick="displayWordLikeTree();">Display the word Javascript in a tree format</button>
+            <br>
+            <textarea name="disp" id="disp" cols="30" rows="10"></textarea>
+                      
+            <hr>
+        </div>
+        <div class="form-group">
+            <label for="">10</label>
+            <button onclick="createPattern();">Create the pattern specified</button>
+            <br>
+            <textarea name="patt" id="patt" cols="30" rows="10"></textarea>
+                      
+            <hr>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
